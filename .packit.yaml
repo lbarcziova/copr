@@ -46,8 +46,6 @@ jobs:
       - copr-frontend
     trigger: pull_request
     targets: fedora-37
-    owner: packit
-    project: copr
 
   - job: copr_build
     packages:
